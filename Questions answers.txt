@@ -1,0 +1,76 @@
+1. System Architecture 
+	Monolithic
+		Bcs simplicity
+		Less Overhead
+		
+
+
+2. Sql
+
+	tbl_user
+		u_id
+		name
+		email
+		password
+		shipping_address
+		billing_address
+
+	tbl_product
+		p_id
+		name
+		desc
+		category
+		stock
+		created_time
+
+	tbl_order
+		o_id
+		u_id
+		
+		total_amount
+		order_status
+		shipping_address
+		pay_id
+		date
+
+	tbl_order_items	
+		o_i_id
+		o_id
+		p_id
+		quantity
+		unit_price
+
+	tbl_payment
+		pay_id
+		o_id
+		payment_status
+		payment_method
+		date
+
+	tbl_cart
+		c_id
+		u_id
+		date
+
+	tbl_cart_items
+		c_i_id
+		c_id
+		p_id
+		quantity
+
+3. Separate frontend backend
+	Rather than working with SSR, im good at Separaet frontend backend.
+
+
+4. React
+	Bcs im good at react than Vue
+
+	Node and Express or Java and Spring boot
+
+6. By giving a coupon with a discount when one person share the item from one to another and Christmas Offers
+
+  
+
+
+
+		
